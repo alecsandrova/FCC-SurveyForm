@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="1.2-SurveyForm.css">
+
+	<html id="imagebackground">
+	
+		<head id="survey-title">
+			<h1 id="title">Demographic Survey</h1> <br>
+			<p id="description">Please fill out this survey to help us learn more about you! </p>
+		</head>
+		<div id="survey-box">
+		<body>
+			<form id="survey-form">
+			
+			
+				<label id="name-label">Name</label>
+				<br>
+				<input type="text" id="name" placeholder="Write your name"  required > 
+				<br>
+				<br>
+				
+				
+				<label id="email-label">Email</label>
+				<br>
+				<input type="email" id="email" placeholder="Write you email"  required > 
+				<br>
+				<br>
+				
+				
+				<label id="number-label">Age</label>
+				<br>
+				<input type="number" id="number" min="10" max="150" placeholder="Age"> 
+				<br>
+				<br>
+				
+				
+				<label id="occupation">Actual occupation</label> 
+				<br>
+				<select id="dropdown">
+					<option value="student">Student</option>
+					<option value="employed">Employed</option>
+					<option value="unemployed">Unemployed</option>
+					<option value="retired">Retired</option>
+				</select> 
+				<br>
+				<br>
+				
+			    
+				<label id="gender-label"> Your Gender: </label>
+				<br>
+				
+			    <input type="radio" name="gender" value="male">
+			    <label for="male">Male</label> <br>
+				
+				<input type="radio" name="gender" value="female">
+				<label for="female">Female</label> 
+			    <br>
+				<br>
+				
+				
+				<label>What are your hobbies?</label> 
+				<br>
+				
+				<input type="checkbox" id="hobby" value="reading">
+				<label for="hobby">Reading</label> 
+				<br>
+				
+				<input type="checkbox" id="hobby" value="traveling">
+				<label for="hobby">Traveling</label> 
+				<br>
+				
+				<input type="checkbox" id="hobby" value="music">
+				<label for="hobby">Music</label> 
+				<br>
+				
+				<input type="checkbox" id="hobby" value="gardening">
+				<label for="hobby">Gardening</label> 
+				<br>
+				
+				<input type="checkbox" id="hobby" value="videogames">
+				<label for="hobby">Video Games</label>
+				<br>
+				
+				<input type="checkbox" id="hobby" value="others">
+				<label for="hobby">Others</label>
+				<br>
+				<br>
+				
+				
+				<label id="textarea-label">Do you have anything else to tell us? Write it here!</label> <br>
+				<textarea rows="5" cols="20"></textarea>
+				<br>
+				<br>
+				
+				
+				<input id="submit" type="submit" value="Submit">
+				
+			</form>
+		</body>
+	</div>
+	</html>
